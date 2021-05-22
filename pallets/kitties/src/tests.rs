@@ -113,6 +113,6 @@ fn can_breed() {
 
 #[test]
 fn combine_dna_works() {
-	assert_eq!(combine_dna(0b11111111, 0b00000000, 0b00001111), 0b11110000);
+	assert_eq!(combine_dna(0b11111111, 0b00000000, 0b00001111), 0b00001111);
 	assert_eq!(combine_dna(0b10101010, 0b11110000, 0b11001100), 0b11100010);
 }
